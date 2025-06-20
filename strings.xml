@@ -1,46 +1,50 @@
 <resources>
     <string name="app_name">ProyectoFinal</string>
 
+    <!-- Strings para la interfaz de la App -->
     <string name="connect_wifi_button_text">Conectar por Wi-Fi</string>
     <string name="disconnect_wifi_button_text">Desconectar Wi-Fi</string>
     <string name="connect_bluetooth_button_text">Conectar por Bluetooth</string>
     <string name="disconnect_bluetooth_button_text">Desconectar Bluetooth</string>
 
-    <string name="status_disconnected">Estado: Desconectado</string>
-    <string name="status_connecting_wifi">Estado: Conectando por Wi-Fi...</string>
-    <string name="status_connected_wifi">Estado: Conectado por Wi-Fi a %1$s:%2$d</string>
-    <string name="status_error_wifi">Estado: Error al conectar por Wi-Fi</string>
-    <string name="status_connecting_bluetooth">Estado: Conectando por Bluetooth a %1$s...</string>
-    <string name="status_connected_bluetooth">Estado: Conectado por Bluetooth a %1$s</string>
-    <string name="status_error_bluetooth">Estado: Error al conectar por Bluetooth</string>
+    <!-- Etiquetas iniciales para los sensores -->
+    <string name="sensor_temperature_label">Temperatura:</string>
+    <string name="sensor_humidity_label">Humedad:</string>
+    <string name="sensor_air_quality_label">Calidad del Aire:</string>
+    <string name="sensor_rain_label">Lluvia:</string>
+    <string name="sensor_soil_moisture_label">Humedad del Suelo:</string>
 
-    <string name="sensor_temperature_label">Temperatura: --</string>
-    <string name="sensor_humidity_label">Humedad: --</string>
-    <string name="sensor_air_quality_label">Calidad del Aire: --</string>
-    <string name="sensor_rain_label">Lluvia: --</string>
-    <string name="sensor_soil_moisture_label">Humedad del Suelo: --</string>
-
-    <string name="sensor_temperature_value">Temperatura: %1$s</string>
-    <string name="sensor_humidity_value">Humedad: %1$s</string>
-    <string name="sensor_air_quality_value">Calidad del Aire: %1$s</string>
-    <string name="sensor_rain_value">Lluvia: %1$s</string>
-    <string name="sensor_soil_moisture_value">Humedad del Suelo: %1$s</string>
+    <!-- Formatos para mostrar los valores de los sensores -->
+    <string name="sensor_temperature_value">%1$s</string>
+    <string name="sensor_humidity_value">%1$s</string>
+    <string name="sensor_air_quality_value">%1$s</string>
+    <string name="sensor_rain_value">%1$s</string>
+    <string name="sensor_soil_moisture_value">%1$s</string>
     <string name="sensor_data_unavailable">--</string>
 
-    <string name="toast_bt_permissions_granted">Permisos Bluetooth y Ubicación concedidos</string>
-    <string name="toast_bt_permissions_denied">Permisos de Ubicación denegados. No se puede conectar por Bluetooth.</string>
-    <string name="toast_bt_enabled">Bluetooth habilitado</string>
-    <string name="toast_bt_not_enabled">Bluetooth no habilitado</string>
+    <!-- Mensajes de estado -->
+    <string name="status_disconnected">Estado: Desconectado</string>
+    <string name="status_connecting_wifi">Estado: Conectando a Wi-Fi…</string>
+    <string name="status_connecting_bluetooth">Estado: Conectando a %1$s…</string>
+    <string name="status_connected_to">Estado: Conectado a</string>
+    <string name="status_error_wifi">Estado: Error en conexión Wi-Fi</string>
+    <string name="status_error_bluetooth">Estado: Error en conexión Bluetooth</string>
+
+    <!-- Mensajes Toast -->
+    <string name="toast_bt_enabled">Bluetooth habilitado.</string>
+    <string name="toast_bt_not_enabled">Bluetooth no fue habilitado. Conexión cancelada.</string>
+    <string name="toast_connected_wifi">¡Conectado por Wi-Fi!</string>
+    <string name="toast_error_connecting_wifi">Error al conectar por Wi-Fi.</string>
+    <string name="toast_wifi_connection_lost">Conexión Wi-Fi perdida.</string>
     <string name="toast_no_bt_support">Este dispositivo no soporta Bluetooth.</string>
-    <string name="toast_bt_not_available">Bluetooth no disponible o no habilitado.</string>
-    <string name="toast_no_paired_devices">No hay dispositivos Bluetooth emparejados. Por favor, empareja tu ESP32 primero.</string>
-    <string name="toast_connected_wifi">Conectado por Wi-Fi</string>
-    <string name="toast_error_connecting_wifi">Error al conectar por Wi-Fi</string>
-    <string name="toast_wifi_connection_lost">Conexión Wi-Fi perdida</string>
-    <string name="toast_connected_bluetooth">Conectado por Bluetooth</string>
+    <string name="toast_bt_not_available">Bluetooth no está disponible o habilitado.</string>
+    <string name="toast_no_paired_devices">No se encontraron dispositivos Bluetooth emparejados.</string>
+    <string name="toast_connected_bluetooth">¡Conectado por Bluetooth!</string>
     <string name="toast_error_connecting_bluetooth">Error al conectar por Bluetooth: %1$s</string>
-    <string name="toast_bluetooth_connection_lost">Conexión Bluetooth perdida</string>
-    <string name="toast_error_parsing_data">Error al procesar datos: Formato incorrecto</string>
-    <string name="dialog_select_bluetooth_device_title">Seleccionar dispositivo Bluetooth</string>
+    <string name="toast_bluetooth_connection_lost">Conexión Bluetooth perdida.</string>
+    <string name="toast_error_parsing_data">Error al procesar los datos recibidos.</string>
+
+    <!-- Título de Diálogo -->
+    <string name="dialog_select_bluetooth_device_title">Selecciona un dispositivo</string>
 
 </resources>
