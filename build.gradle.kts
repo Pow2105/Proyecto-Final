@@ -44,8 +44,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-    // Agrega estas dependencias si necesitas usar JSON parsing (por ejemplo, con Gson)
-    // Para el formato actual de string, no es estrictamente necesario Gson.
-    // implementation("com.google.code.gson:gson:2.10.1")
 }
